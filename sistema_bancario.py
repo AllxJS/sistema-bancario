@@ -32,7 +32,7 @@ while True:
         else:
             print("Ovalor informado é invalido.") 
     elif menu == "3":
-       print("### Extrato ###\nNão foram realizadas operações" if not extrato else extrato)
+       print("\n### Extrato ###\nNão foram realizadas operações" if not extrato else extrato)
        print(f"Saldo: R$ {saldo:.2f}")
     elif menu == "4":
         print("Programa Encerrado!\n")
